@@ -3,7 +3,7 @@ Smart Stop Light Implementation for Tiva C Microcontroller
 
 This is Chris Erb and Conor Johnson's Embedded Systems Design Project. We are using the Tiva C microcontroller to make a more efficient, smart stoplight that utilizes motion sensors, the onboard temperature sensor, and a moisture detector to determine the length of the stoplight cycle.
 
-This repository contains all the system's source code.
+This repository contains all of the system's source code.
 
 ![IMG_7402](https://github.com/chris-erb/EECE_321_Final_Project/assets/145140858/a5f1af49-1fec-47d3-8560-edd0a1a932b6)
 
