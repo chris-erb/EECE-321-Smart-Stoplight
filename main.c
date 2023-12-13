@@ -11,7 +11,7 @@
 #include "driverlib/timer.h"
 #include "driverlib/adc.h"
 
-volatile void delay(uint32_t milliseconds){
+void delay(uint32_t milliseconds){
     // Configure Timer0
     SYSCTL_RCGCTIMER_R |= 0x01; // Enable clock for Timer0
     TIMER0_CTL_R = 0; // Disable Timer0 during setup
