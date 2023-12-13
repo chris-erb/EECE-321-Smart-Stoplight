@@ -78,12 +78,12 @@ void yellowLightOn2(int x, int y){ // Right yellow light
     redLightOff2();
 }
 
-void redLightOn1(int x){
+void redLightOn1(uint32_t x){
     GPIOPinWrite(GPIO_PORTB_BASE, GPIO_PIN_0, GPIO_PIN_0);
     delay(x);
 }
 
-void redLightOn2(int x){
+void redLightOn2(uint32_t x){
     GPIOPinWrite(GPIO_PORTE_BASE, GPIO_PIN_5, GPIO_PIN_5);
     delay(x);
 }
@@ -122,7 +122,7 @@ int motionCheckCycle2(int x, int y){
 void regularCycle1(){
     //Cycle 1
     greenLightOn2();
-    redLightOn1(50000);
+    redLightOn1(80000); // Value accounts for software delay from motion sensor
     yellowLightOn2(0, 8);
     redLightOff1();
 }
@@ -130,7 +130,7 @@ void regularCycle1(){
 void regularCycle2(){
     // Cycle 2
     greenLightOn1();
-    redLightOn2(50000);
+    redLightOn2(80000); // Value accounts for software delay from motion sensor
     yellowLightOn1(0, 8);
     redLightOff2();
 }
@@ -152,12 +152,12 @@ void noMotionCycle2(){
 void halfCycle(){
     // Half Cycle 1
     greenLightOn2();
-    redLightOn1(82000);
+    redLightOn1(70000);
     yellowLightOn2(0, 8);
     redLightOff1();
     // Half Cycle 2
     greenLightOn1();
-    redLightOn2(82000);
+    redLightOn2(70000);
     yellowLightOn1(0, 8);
     redLightOff2();
 }
@@ -165,12 +165,12 @@ void halfCycle(){
 void doubleCycle(){
     // Double Cycle 1
     greenLightOn2();
-    redLightOn1(270000);
+    redLightOn1(245000);
     yellowLightOn2(0, 8);
     redLightOff1();
     // Double Cycle 2
     greenLightOn1();
-    redLightOn2(270000);
+    redLightOn2(245000);
     yellowLightOn1(0, 8);
     redLightOff2();
 }
