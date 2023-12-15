@@ -6,6 +6,7 @@ This is Chris Erb and Conor Johnson's Embedded Systems Design Project. We are us
 This repository contains all of the system's source code.
 
 ## Assembled Unit
+<img src="[https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/572a7251-0c13-42c0-93f5-986c042336bb](https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/c0ab629a-b003-4bf3-acf4-45e82b925aa4)" width="700" height="700"/>
 ![IMG_7466](https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/c0ab629a-b003-4bf3-acf4-45e82b925aa4)
 
 Demonstration Video: [https://youtu.be/4dspw7MxHMw](https://www.youtube.com/watch?v=4dspw7MxHMw&ab_channel=ChrisErb)https://www.youtube.com/watch?v=4dspw7MxHMw&ab_channel=ChrisErb
