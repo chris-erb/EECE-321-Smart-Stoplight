@@ -20,7 +20,7 @@ Demonstration Video: [https://youtu.be/4dspw7MxHMw](https://www.youtube.com/watc
 * 3x 1kΩ resistor
 * 3x DIP slide switch
 
-<img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/572a7251-0c13-42c0-93f5-986c042336bb" width="200" height="200"/> &emsp; <img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/5a23814e-a905-4764-8663-d75ed5b6c618" width="200" height="200"/> &emsp; <img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/0ba817b8-4eb0-4582-b1a1-b41aee0eb055" width="200" height="200"/>
+<img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/572a7251-0c13-42c0-93f5-986c042336bb" width="200" height="200"/> &emsp;&emsp; <img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/5a23814e-a905-4764-8663-d75ed5b6c618" width="200" height="200"/> &emsp;&emsp; <img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/0ba817b8-4eb0-4582-b1a1-b41aee0eb055" width="200" height="200"/>
 
-LM393 moisture sensor &nbsp;    HC-SR501 PIR motion sensors &nbsp;    DIP slide switch  &nbsp;
+LM393 moisture sensor &emsp;    HC-SR501 PIR motion sensors &emsp;    DIP slide switch  &nbsp;
 
