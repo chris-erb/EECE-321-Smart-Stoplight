@@ -26,7 +26,7 @@ https://youtu.be/4dspw7MxHMw](https://www.youtube.com/watch?v=4dspw7MxHMw&ab_cha
 
 ## Set Stoplight Delay Times <br />
   Within the provided main file, the stop light is optimized for a half cycle of 5 seconds, a regular cycle of 10 seconds (including the time to detect whether motion occurred), and a double cycle of 20 seconds. When calling the functions, it is possible to maintain the current optimized values but multiply them by an integer to increase the duration; in the case of the regular cycle, the motion detection time must also be multiplied by the integer. Additionally, the call of the yellowLightOn functions can be modified to have more or less green-red flashes.<br />
-  '''
+```
   void regularCycle1(){ 
     //Cycle 1
     greenLightOn2(); 
@@ -34,4 +34,4 @@ https://youtu.be/4dspw7MxHMw](https://www.youtube.com/watch?v=4dspw7MxHMw&ab_cha
     yellowLightOn2(0, 8); // the 8 denotes 4 red light flashes going: off-on-off-on-off-on-off-on
     redLightOff1();
 } 
-'''
+```
