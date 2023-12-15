@@ -9,7 +9,7 @@ This repository contains all of the system's source code.
 
 Demonstration Video: [https://youtu.be/4dspw7MxHMw](https://www.youtube.com/watch?v=4dspw7MxHMw&ab_channel=ChrisErb)https://www.youtube.com/watch?v=4dspw7MxHMw&ab_channel=ChrisErb
 
-# Demonstration Hardware
+## Demonstration Hardware
 * Board: Tiva C Microcontroller
 * Sensors: Onboard temperature sensor
   - 1x LM393 moisture sensor
@@ -18,8 +18,9 @@ Demonstration Video: [https://youtu.be/4dspw7MxHMw](https://www.youtube.com/watc
 * 3x 1kΩ resistor
 * 3x DIP slide switch
 
-<img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/572a7251-0c13-42c0-93f5-986c042336bb" width="200" height="200"/> <img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/5a23814e-a905-4764-8663-d75ed5b6c618" width="200" height="200"/> <img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/0ba817b8-4eb0-4582-b1a1-b41aee0eb055" width="200" height="200"/>
+<img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/572a7251-0c13-42c0-93f5-986c042336bb" width="200" height="200"/> &nbsp; <img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/5a23814e-a905-4764-8663-d75ed5b6c618" width="200" height="200"/> &nbsp; <img src="https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/0ba817b8-4eb0-4582-b1a1-b41aee0eb055" width="200" height="200"/>
+LM393 moisture sensor &nbsp;  HC-SR501 PIR motion sensors &nbsp; DIP slide switch  &nbsp;
 
-# Assembled Unit
+## Assembled Unit
 ![IMG_7466](https://github.com/chris-erb/EECE-321-Smart-Stoplight/assets/145140858/c0ab629a-b003-4bf3-acf4-45e82b925aa4)
 
